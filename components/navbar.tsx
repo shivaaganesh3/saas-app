@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import Navitems from "./navitems"
 
 const Navbar = () => {
   return (
@@ -17,9 +18,7 @@ const Navbar = () => {
             </div>
         </Link>
         <div className='flex items-center gap-8'>
-            <p>Home</p>
-            <p>Companions</p>
-            <p>My Journey</p>
+            <Navitems />
             <p>Sign In</p>
         </div>
     </div>
