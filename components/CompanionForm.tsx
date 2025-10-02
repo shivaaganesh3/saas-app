@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import { createCompanion } from '@/lib/actions/actions/companion.actions'
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
